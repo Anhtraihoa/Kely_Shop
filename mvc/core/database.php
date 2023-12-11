@@ -2,8 +2,8 @@
     class database{
         public $conn;
         protected $severName  = "kelyserver.mysql.database.azure.com";
-        protected $userName = "blduznjnco";
-        protected $passWord = "876P6TM12HA61PD4$";
+        protected $userName = "kelyusername";
+        protected $passWord = "Vothanhtu2002";
         protected $databaseName = "kelydatabase";
 
         function __construct()
