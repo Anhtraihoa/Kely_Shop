@@ -1,4 +1,4 @@
-<?php require_once "https://kely.azurewebsites.net/mvc/views/client/include/head.php"; ?>
+<?php require_once "./mvc/views/client/include/head.php"; ?>
 <body>
     <header id="header"><!--header-->
 	<div class="header_top"><!--header_top-->
