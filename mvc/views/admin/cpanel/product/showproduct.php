@@ -14,7 +14,7 @@
     <div class="page-title">
         <div class="title_left">
             <h3><?= $data['title']?></h3>
-                <a href="admin/addpersonnel" class="btn btn-primary">Thêm mới</a>
+                <a href="admin/addproduct" class="btn btn-primary">Thêm mới</a>
                 <h3 class="text-success"><?=$data["mess"]?></h3>
         </div>
     </div>

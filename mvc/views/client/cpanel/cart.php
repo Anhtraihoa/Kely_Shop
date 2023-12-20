@@ -8,7 +8,7 @@
 		<div class="container">
 			<div class="breadcrumbs">
 				<ol class="breadcrumb">
-				  <li class="active" style="color: #FE980F; font-weight: bold; font-size: 20px;">Giỏ Hàng Của Bạn </li>
+				  <li class="active" style="color: #5555AF; font-weight: bold; font-size: 20px;">Giỏ Hàng Của Bạn </li>
 				</ol>
 			</div>
 			<div class="table-responsive cart_info">
@@ -62,11 +62,11 @@
 			</div>
 		</div>
 	</section> <!--/#cart_items-->
-    <form method="POST" action="./momo_payment.php">
+    <form method="POST">
 		<section id="do_action">
 			<div class="container">
 				<div class="heading">
-					<h3 style="color: #FE980F;">Thanh Toán Đơn Hàng</h3>
+					<h3 style="color: #5555AF;">Thanh Toán Đơn Hàng</h3>
 				</div>
 				<div class="row">
 					<div class="col-sm-6">

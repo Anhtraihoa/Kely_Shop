@@ -1,10 +1,10 @@
 <?php 
     class database{
         public $conn;
-        protected $severName  = "kelyserver.mysql.database.azure.com";
-        protected $userName = "kelyusername";
-        protected $passWord = "Vothanhtu2002";
-        protected $databaseName = "kelydatabase";
+        protected $severName  = "localhost";
+        protected $userName = "root";
+        protected $passWord = "";
+        protected $databaseName = "web_ban_hang";
 
         function __construct()
         {

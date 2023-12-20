@@ -34,19 +34,19 @@
         <div class="col-md-12">
         <div class="">
             <div class="x_content">
+            <!-- Row flex -->
             <div class="row">
                 <div class="animated flipInY col-lg-3 col-md-4 col-sm-6  ">
                 <div class="tile-stats">
-                    <div class="icon"><i class="fa fa-shopping-cart"></i>
+                    <div style="margin-top: 2rem" class="icon"><i class="fa fa-shopping-cart"></i>
                     </div>
                     <div class="count"><?=$data["totalorder"]?></div>
-
                     <h3>Đơn Hàng</h3>
                 </div>
                 </div>
                 <div class="animated flipInY col-lg-3 col-md-4 col-sm-6  " >
                 <div class="tile-stats">
-                    <div class="icon"><i class="fa fa-group"></i>
+                    <div style="margin-top: 2rem" class="icon"><i class="fa fa-group"></i>
                     </div>
                     <div class="count"><?=$data["totaluser"]?></div>
 
@@ -55,7 +55,7 @@
                 </div>
                 <div class="animated flipInY col-lg-3 col-md-4 col-sm-6  ">
                 <div class="tile-stats">
-                    <div class="icon"><i class="fa fa-money"></i></i>
+                    <div style="margin-top: 2rem"  class="icon"><i class="fa fa-money"></i></i>
                     </div>
                     <div class="count"><?=number_format ($data["totalmony"] , $decimals = 0 , $dec_point = "," , $thousands_sep = "." )?></div>
 
@@ -64,7 +64,7 @@
                 </div>
                 <div class="animated flipInY col-lg-3 col-md-4 col-sm-6  ">
                 <div class="tile-stats">
-                    <div class="icon"><i class="fa fa-check-square-o"></i>
+                    <div style="margin-top: 2rem" class="icon"><i class="fa fa-check-square-o"></i>
                     </div>
                     <div class="count"><?=$data["ordersuccess"]?></div>
                     <h3 class="title-statistical">Đơn Hàng Đã Giao</h3>

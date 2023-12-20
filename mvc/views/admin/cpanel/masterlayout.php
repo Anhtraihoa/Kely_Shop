@@ -16,7 +16,7 @@
             <!-- menu profile quick info -->
             <div class="profile clearfix">
               <div class="profile_pic">
-                <img src="public/build/images/img.jpg" alt="..." class="img-circle profile_img">
+                <img style="width:60px; height:60px; object-fit:cover" src="public/build/images/User-avatar.png" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
                 <span>Xin Chào,</span>

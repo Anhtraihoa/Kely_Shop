@@ -13,6 +13,7 @@
             $data = [];
             $this->ViewAdmin("error404",$data);
         }
+        //Thanh toán momo
         //Hiển thị sản phẩm trong giỏ hàng
         function showcart(){
             //xử lý khi người dùng bấm nút thanh toán
@@ -43,6 +44,7 @@
                     unset($_SESSION["cart"]);
                     //notification("success","Đặt Hàng Thành Công","Đơn hàng của bạn đang chờ xử lý","OK","true","3085d6");
                     NotifiOrder("Đặt Hàng Thành Công","home/history");
+                
                 }else 
                     notification("error","Không Thành Công","Vui lòng thêm sản phẩm vào giỏ hàng","OK","true","3085d6");
             }

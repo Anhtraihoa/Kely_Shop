@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <base href="<?=base?>">
-    <title>Home | E-Shopper</title>
+    <title>Home | Kely</title>
     <link href="public/client/csss/bootstrap.min.css" rel="stylesheet">
     <link href="public/client/csss/font-awesome.min.css" rel="stylesheet">
     <link href="public/client/csss/prettyPhoto.css" rel="stylesheet">
@@ -27,13 +27,10 @@
 
 <body>
 	<div class="container text-center">
-		<div class="logo-404">
-			<a href="<?=base?>"><img src="public/client/images/home/logo.png" alt="" /></a>
-		</div>
-		<div class="content-404" style="max-height: 400px;">
-			<img style="max-height: 350px;" src="public/client/images/404/404.png" class="img-responsive" alt="" />
-			<h1><b>Xin Lỗi!</b> Chúng tôi không tìm thấy trang này</h1>
-			<h2><a href="<?=base?>">Quay lại trang chủ</a></h2>
+		<div class="content-404">
+			<img style="width: 200px; height:200px;object-fit:cover; margin-top: 5rem" src="public/images/logo/kely_logo.svg" class="img-responsive" alt="" />
+			<h1><b style="color:#5555AF">Không tìm thấy trang này</h1>
+			<h2><a style="border-radius:25px" href="<?=base?>">Quay lại trang chủ</a></h2>
 		</div>
 	</div>
 

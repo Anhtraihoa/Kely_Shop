@@ -50,7 +50,7 @@
             <div style="display: flex; flex-direction: column;">
                 <div class="" id="mobi">
     					<div class="left-sidebar">
-    						<h2 style=" color: #5D5A88; font-size: 36px; font-weight: 700; margin: 0 0 2rem 2rem;">Danh Mục</h2>
+    						<h2 style=" color: #5555AF; font-size: 36px; font-weight: 700; margin: 0 0 2rem 2rem;">Danh Mục</h2>
     						<div class="panel-group category-products" id="accordian"><!--category-productsr-->
     							<div class="panel panel-default">
     								<div class="panel-heading">
@@ -64,7 +64,7 @@
                                         <h4 class="panel-title"><a class="category" href="javascrip:void(0)" id_category = <?=$values["id"]?> ><?=$values["name"]?></a></h4>
                                         </div>
                                     </div>
-    
+
                                 <?php }?>
     
     						</div><!--/category-products-->
