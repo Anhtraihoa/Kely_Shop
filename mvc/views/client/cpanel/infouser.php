@@ -65,7 +65,7 @@
 			</div>
 		</div><!--/header-middle-->
     <div id="contact-page" class="container">
-        <h3 style="color: #5D5A88; font-size: 40px;">Thông Tin Cá Nhân</h3>
+        <h3 style="color: #5454AE; font-size: 32px;">Thông Tin Cá Nhân</h3>
 		<div style="padding: unset;" class="form-group col-md-12">
 			<a href="<?=base?>" name="submit" class="btn-back pull-left">Trở Về</a>
 		</div>
@@ -73,7 +73,7 @@
     		<div class="row" style="margin-top: 100px;">  	
 	    		<div class="col-sm-7">
 	    			<div class="contact-form">
-	    				<h2 class="title text-center" style="color: #5D5A88; font-size: 24px;">Thay Đổi Thông Tin Cá Nhân</h2>
+	    				<h2 class="title text-center" style="color: #5454AE; font-size: 24px;">Thay Đổi Thông Tin Cá Nhân</h2>
 	    				<div class="status alert alert-success" style="display: none"></div>
 				    	<form id="main-contact-form" class="contact-form row" name="contact-form" method="post">
 				            <div class="form-group col-md-6">
@@ -97,7 +97,7 @@
 	    		<div class="col-sm-5">
 					<form id="main-contact-form" class="contact-form row" name="contact-form" method="post">
 						<div class="contact-info">
-							<h2 class="title text-center" style="color: #5D5A88; font-size: 24px;">Thay Đổi Mật Khẩu</h2>
+							<h2 class="title text-center" style="color: #5454AE; font-size: 24px;">Thay Đổi Mật Khẩu</h2>
 							<div class="form-group col-md-12">
 									<input type="password" name="info[pass_old]" class="form-control" required="required" placeholder="Mật Khẩu Cũ">
 								</div>

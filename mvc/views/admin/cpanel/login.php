@@ -24,7 +24,7 @@
   </head>
   <style>
       .save_account{
-        margin-left: 30px;
+        margin-left: 8px;
       }
   </style>
 
@@ -37,17 +37,22 @@
         <div class="animate form login_form">
           <section class="login_content">
             <form action="" method="post">
-              <h1>ĐĂNG NHẬP</h1>
+              <h1 style="color:#262626;font-size:36px;font: weight 700px;">Đăng nhập</h1>
               <div>
                 <input value="<?=$data["user"]?>" type="text" class="form-control" placeholder="Tài Khoản" name="user" required="" />
               </div>
               <div>
                 <input value="<?=$data["pass"]?>" type="password" class="form-control" placeholder="Mật Khẩu" name="pass" required="" />
               </div>
-              <div class="container-login">
+              <!-- <div class="container-login">
                 <button class="btn  btn-primary" name="login">Đăng Nhập</button>
                 <label class="save_account" for="">Lưu Tài Khoản</label>
                 <input  type="checkbox" id="save_account">
+              </div> -->
+
+              <div class="container-login">
+              <input  type="checkbox" id="save_account"><label class="save_account" for="">Lưu Tài Khoản</label>
+                <button style="background-color: #5454AE;border-radius: 30px;border:none;width:-webkit-fill-available;height: 40px;" class="btn  btn-primary" name="login">Đăng Nhập</button>
               </div>
 
               <div class="clearfix"></div>

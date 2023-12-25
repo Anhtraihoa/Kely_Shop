@@ -65,7 +65,7 @@
 			</div>
 		</div><!--/header-middle-->
     <div id="contact-page" class="container">
-        <h3 style="color: #5D5A88;">HỖ TRỢ TRỰC TUYẾN</h3>
+        <h2 style="color: #5454AE;">HỖ TRỢ TRỰC TUYẾN</h2>
 		<div style="padding: unset;" class="form-group col-md-12">
 			<a href="<?=base?>" name="submit" class="btn-back pull-left">Trở Về</a>
 		</div>
@@ -73,7 +73,7 @@
     		<div class="row" style="margin-top: 100px;">  	
 	    		<div class="col-sm-8">
 	    			<div class="contact-form">
-	    				<h2 class="title text-center" style="color: #5D5A88;">Liên Hệ Với Chúng Tôi</h2>
+	    				<h3 class="title text-center" style="color: #5454AE;margin-bottom:28px;">Liên Hệ Với Chúng Tôi</h3>
 	    				<div class="status alert alert-success" style="display: none"></div>
 				    	<form id="main-contact-form" class="contact-form row" name="contact-form" method="post">
 				            <div class="form-group col-md-6">
@@ -93,7 +93,7 @@
 	    		</div>
 	    		<div class="col-sm-4">
 	    			<div class="contact-info">
-	    				<h2 class="title text-center" style="color: #5D5A88;">Thông Tin Liên Hệ</h2>
+	    				<h3 class="title text-center" style="color: #5454AE;margin-bottom:28px;">Thông Tin Liên Hệ</h3>
 	    				<address>
 	    					<p>Kely</p>
 							<p>Thành Phố Hồ Chí Minh</p>

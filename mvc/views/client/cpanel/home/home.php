@@ -3,13 +3,14 @@
         border: 1px solid #ccc;
         padding: 5px 9px;
         color: #000;
+        border-radius: 10px; 
     }
     .paging-current{
-        background: #666;
+        background: #5454AE;
         color: #FFF;
     }
 </style>
-<section id="slider" style=" background:#FAFAFA" >
+<section id="slider" >
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -44,13 +45,13 @@
 			</div>
 		</div>
 	</section>
-<section style=" background:#FAFAFA" >
+<section style="margin-top:32px">
     <div class="container">
         <div class="row" style="display:flex;">
             <div style="display: flex; flex-direction: column;">
                 <div class="" id="mobi">
     					<div class="left-sidebar">
-    						<h2 style=" color: #5555AF; font-size: 36px; font-weight: 700; margin: 0 0 2rem 2rem;">Danh Mục</h2>
+    						<h2 style=" color: #5454AE; font-size: 28px; font-weight: 700; margin: 0 0 2rem 2rem;">Danh Mục</h2>
     						<div class="panel-group category-products" id="accordian"><!--category-productsr-->
     							<div class="panel panel-default">
     								<div class="panel-heading">
@@ -73,7 +74,7 @@
                         </div>
     			</div>
                 <!--Sản Phẩm Sale   -->
-                <h2 class="title text-center" style="color: #5D5A88; font-size: 36px; font-weight: 700;margin: 0 0 2rem 2rem;">Khuyến mãi</h2>
+                <h2 class="title text-center" style="color: #5454AE; font-size: 32px; font-weight: 700;margin: 0 0 2rem 2rem;">Khuyến mãi</h2>
                             <?php foreach($data["productsale"] as $key=>$values){?>
                             <div class="">
                                 <div class="product-image-wrapper"style="max-height: 400px; border-radius: 5px;">
@@ -105,7 +106,7 @@
                             <!-- trong này là sản phẩm -->
                     </div>
                     <!--phân trang-->
-                    <div class="getpage" id="getpage" style="margin-bottom: 5px; margin-left: 15px;height: 30px;">
+                    <div class="getpage" id="getpage" style="margin-bottom: 5px; margin-left: 15px;height: 30px;text-align: right;">
                             <!-- phân trang sản phẩm -->
                     </div>
                     <!--features_items-->
@@ -115,7 +116,7 @@
                 
                 <!-- SAN PHAM MOI NHAT -->
                 <div class="category-tab"><!--category-tab-->
-                    <h2 class="title text-center" style="padding-top: 3px;">Sản Phẩm Mới Nhất</h2>
+                    <h2 class="title text-center" style="color:#5454AE;font-size:32px;font-weight: 700;padding-top:3px;margin-bottom:30px;">Sản Phẩm Mới Nhất</h2>
                     <div class="tab-content">
                         <?php foreach($data["productnew"] as $key=>$values){?>
                             <div class="tab-pane fade active in" id="tshirt" >

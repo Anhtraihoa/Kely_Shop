@@ -97,17 +97,17 @@
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-4">
 					<div class="signup-form">
-						<h2 style="text-align: center;">Đăng Kí Tài Khoản</h2>
+						<h2 style="text-align: center; ">Đăng Kí Tài Khoản</h2>
                         <div style="height: 30px; width: 100%;" id= "mess"><?=$data["mess"]?></div>
 						<form action="sigin/sigin" method="post">
                             <input class="unset-mess" type="text" placeholder="Họ Và Tên" name="data[name]" required>
 							<input class="unset-mess" type="email" placeholder="Email" name="data[email]" id="email" required>
 							<input class="unset-mess" type="password" placeholder="Mật Khẩu" name="data[pass]" id = "pass" required>
                             <input class="unset-mess" type="password" placeholder="Xác Nhận Mật Khẩu" name="data[pass_confirm]" id = "pass_confirm" required>
-                            <input class="unset-mess" type="number" placeholder="Số Điện Thoại" name="data[phonenumber]" required>
+                            <input class="unset-mess" type="text" placeholder="Số Điện Thoại" name="data[phonenumber]" required>
                             <input class="unset-mess" type="text" placeholder="Địa Chỉ" name="data[address]" required>
                             <div style="display: flex; flex-direction:column; align-items:center">
-                                <button type="submit" class="btn-login" name="login">Đăng Kí</button>
+                                <button type="submit" class="btn-login" name="sigin">Đăng Kí</button>
                                 <p class="p-login"> Bạn đã có tài khoản ? <a href="login/login">Đăng Nhập</a></p>
                             </div>
 						</form>

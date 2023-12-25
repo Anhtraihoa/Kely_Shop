@@ -49,7 +49,7 @@
                                 <td><?=$values['quantity']?></td>
                                 <td>
                                     <a style="height: 35px;" class="btn btn-success" href="<?=base?>admin/editproduct&id=<?=$values['id']?>">Sửa</a>
-                                    <a style="height: 35px" class="btn btn-danger submit" href="javascrip:void(0)" onclick="del(<?=$values['id']?>,'<?=$values['name'] ?>','<?=base.'admin/deleteproduct/'?>','sản phẩm'>)"  >Xóa</a> 
+                                    <a style="height: 35px" class="btn btn-danger submit" href="javascrip:void(0)" onclick="del(<?=$values['id']?>,'<?=$values['name'] ?>','<?=base.'admin/deleteproduct/'?>','sản phẩm')"  >Xóa</a> 
                                 </td>
                             </tr>
                             <?php }?>

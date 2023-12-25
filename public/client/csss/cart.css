@@ -1,18 +1,21 @@
 .order{
     outline: none;
     border: none;
-    background: #E6E4DF;
+    border-radius: 3px;
+    background: #E6E6F3;
     display: block;
     margin-bottom: 10px;
     width: 100%;
-    height: 35px;
+    height: 40px;
+    padding: 7px 20px;
 }
 .info-order{
     border: 1px solid #E6E4DF;
-    padding-top: 40px;
+    /* padding-top: 40px;
     padding-right: 30px;
-    padding-left: 30px;
-    min-height: 240px;
+    padding-left: 30px; */
+    padding: 40px 30px;
+    /* min-height: 240px; */
 }
 .img-cart{
     max-height: 120px;

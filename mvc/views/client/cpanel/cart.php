@@ -8,7 +8,7 @@
 		<div class="container">
 			<div class="breadcrumbs">
 				<ol class="breadcrumb">
-				  <li class="active" style="color: #5555AF; font-weight: bold; font-size: 20px;">Giỏ Hàng Của Bạn </li>
+				  <li class="active" style="color: #5454AE; font-weight: bold; font-size: 32px;">Giỏ Hàng Của Bạn </li>
 				</ol>
 			</div>
 			<div class="table-responsive cart_info">
@@ -66,7 +66,7 @@
 		<section id="do_action">
 			<div class="container">
 				<div class="heading">
-					<h3 style="color: #5555AF;">Thanh Toán Đơn Hàng</h3>
+					<h3 style="color: #5454AE;">Thanh Toán Đơn Hàng</h3>
 				</div>
 				<div class="row">
 					<div class="col-sm-6">
@@ -84,14 +84,20 @@
 								<li>Phí Vận Chuyển <span>35.000đ</span></li>
 								<li>Tổng Số Tiền Thanh Toán <span><?=number_format (($data["total"]+35000) , $decimals = 0 , $dec_point = "," , $thousands_sep = "." )?> đ</span></li>
 							</ul>
-								<button 
+								<!-- <button 
+								style="margin-left: unset;" 
+								name="submit" 
+								class="btn btn-default update"
+								
+								>Thanh Toán</button> -->
+
+						</div>
+						<button 
 								style="margin-left: unset;" 
 								name="submit" 
 								class="btn btn-default update"
 								
 								>Thanh Toán</button>
-
-						</div>
 					</div>
 				</div>
 			</div>
