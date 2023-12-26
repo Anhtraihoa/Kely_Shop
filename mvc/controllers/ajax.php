@@ -65,6 +65,16 @@
                                 <p style="color: #5D5A88; font-size: 18px; font-weight: 400; font-style:normal; line-height: 34px;"><b >Số Lượng còn:</b> '.$product[0]["quantity"].'</p>
                                 <p style="color: #5D5A88; font-size: 18px; font-weight: 400; font-style:normal; line-height: 34px;"><b >Nhà cung cấp:</b> '.$product[0]["production_company"].'</p>
                                 <p style="color: #5D5A88; font-size: 16px; font-weight: 400;"><b style="color: #5D5A88; font-size: 18px; font-weight: 700; font-style:normal; line-height: 34px;">Mô tả: </b>'.$product[0]["descrip"].'</p>
+                                <!-- Phần chọn size -->
+                                <div class="sizes" style="color: #5D5A88; font-size: 18px; font-weight: 700; font-style:normal; line-height: 34px;"
+                                    <label for="size">Chọn size:</label>
+                                    <select id="size" name="size">
+                                        <option style="color: #5D5A88; font-size: 16px; font-weight: 400;" value="S">Size S</option>
+                                        <option style="color: #5D5A88; font-size: 16px; font-weight: 400;" value="M">Size M</option>
+                                        <option style="color: #5D5A88; font-size: 16px; font-weight: 400;" value="L">Size L</option>
+                                        <option style="color: #5D5A88; font-size: 16px; font-weight: 400;" value="XL">Size XL</option>
+                                    </select>
+                                </div>
                                 <span>
                                     <a href="javascript:void(0)" 
                                         class="btn btn-fefault cart addcart" 
@@ -76,6 +86,7 @@
                                     </a>
                                 </span>
                             </div>
+
                             <div >
                             <div style="max-height: 150px; overflow-y: scroll;" id="list-comment">
                             ';

@@ -44,7 +44,7 @@
                     unset($_SESSION["cart"]);
                     //notification("success","Đặt Hàng Thành Công","Đơn hàng của bạn đang chờ xử lý","OK","true","3085d6");
                     NotifiOrder("Đặt Hàng Thành Công","home/history");
-                
+                                     
                 }else 
                     notification("error","Không Thành Công","Vui lòng thêm sản phẩm vào giỏ hàng","OK","true","3085d6");
             }
@@ -85,3 +85,23 @@
         }
     }
 ?>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    // Xác định popup và nút thanh toán
+    const popup = document.querySelector('.popup');
+    const momoButton = document.querySelector('.momo-btn');
+    const cashButton = document.querySelector('.cash-btn');
+
+    // Hiển thị thông báo khi chọn thanh toán Momo
+    momoButton.addEventListener('click', function () {
+        popup.style.display = 'none';
+        NotifiOrder("Đặt Hàng Thành Công", "home/history");
+    });
+
+    // Hiển thị thông báo khi chọn thanh toán tiền mặt khi giao hàng
+    cashButton.addEventListener('click', function () {
+        popup.style.display = 'none';
+        NotifiOrder("Đặt Hàng Thành Công", "home/history");
+    });
+});
+</script>
