@@ -37,7 +37,7 @@
         <div class="animate form login_form">
           <section class="login_content">
             <form action="" method="post">
-              <h1 style="color:#262626;font-size:36px;font: weight 700px;">Đăng nhập</h1>
+              <h1 style="color:#5454AE;font-size:36px;font: weight 700px;">Đăng nhập</h1>
               <div>
                 <input value="<?=$data["user"]?>" type="text" class="form-control" placeholder="Tài Khoản" name="user" required="" />
               </div>

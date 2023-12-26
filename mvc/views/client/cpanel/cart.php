@@ -71,8 +71,11 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="info-order">
+							<label for="name" style="color: #5454AE;">Họ tên khách hàng</label>
 							<input name="order[name]" value="<?php if(isset($_SESSION["info"]["name"])) echo $_SESSION["info"]["name"]; ?>" class="order full-name" type="text" placeholder="Họ Tên" required>
+							<label for="phone" style="color: #5454AE;">Số điện thoại</label>
 							<input name="order[phone]" value="<?php if(isset($_SESSION["info"]["phone"])) echo $_SESSION["info"]["phone"]; ?>" class="order phone-number" type="text" placeholder="Số Điện Thoại" required>
+							<label for="adress" style="color: #5454AE;">Địa chỉ nhận hàng</label>
 							<input name="order[address]" value="<?php if(isset($_SESSION["info"]["address"])) echo $_SESSION["info"]["address"]; ?>" class="order add-ress" type="text" placeholder="Địa Chỉ" required>
 							<input name="order[total]" type="text" value="<?=$data['total']+35000?>" hidden>
 						</div>

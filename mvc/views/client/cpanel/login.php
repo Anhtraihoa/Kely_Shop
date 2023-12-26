@@ -69,7 +69,8 @@
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-4">
 					<div class="login-form"><!--login form-->
-						<h2 style="font-size:36px;color:#5454AE;text-align: center;">Đăng Nhập</h2>
+						<h2 class="login-title-user" style="font-size:36px;color:#5454AE;text-align: center;
+						">Đăng Nhập</h2>
                         <div style="height: 20px; width: 100%; color: red;"><?=$data["mess"]?><?php if(isset($_SESSION["error_login"])){echo $_SESSION["error_login"];unset($_SESSION["error_login"]);}?></div>
 						<form action="login/login" method="post">
 							<input type="text" placeholder="Email" name="email" value="<?=$data["email"]?>" required>

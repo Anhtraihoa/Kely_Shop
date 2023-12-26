@@ -73,32 +73,17 @@
                             
                         </div>
     			</div>
+
+
+
                 <!--Sản Phẩm Sale   -->
-                <h2 class="title text-center" style="color: #5454AE; font-size: 32px; font-weight: 700;margin: 0 0 2rem 2rem;">Khuyến mãi</h2>
-                            <?php foreach($data["productsale"] as $key=>$values){?>
-                            <div class="">
-                                <div class="product-image-wrapper"style="max-height: 400px; border-radius: 5px;">
-                                    <div class="single-products"style="max-height: 400px;">
-                                        <div class="productinfo text-center" style="max-height: 450px;">
-                                            <img style="max-height: 250px; border-radius: 5px;min-height: 250px;object-fit: cover;" src="public/images/img_product/<?=$values["img_product"]?>" alt="" />
-                                            <h4 style="text-decoration: line-through;"><?=number_format ($values["price"] , $decimals = 0 , $dec_point = "," , $thousands_sep = "." )?>đ</h4>
-                                            <h2 style="margin: unset;"><?=number_format ($values["price"] * (1-$values["sale_product"]/100) , $decimals = 0 , $dec_point = "," , $thousands_sep = "." ) ?> đ</h2>
-                                            <p style="margin-top: 10px ;"><?=$values["name"]?></p>
-                                            <a href="javascript:void(0)" class="btn btn-default add-to-cart" idproduct = "<?=$values['id']?>"><i class="fa fa-shopping-cart"></i>Mua Hàng</a>
-                                        </div>
-                                        <img src="public/client/images/home/sale.png" class="new" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <?php }?>
+                
+                            
             </div>
                 <div class="col-sm-9 padding-right">
             
                 <!--features_items-->
                     
-                        <!-- <div class="">
-                        
-                    </div> -->
                     <!-- <h2 class="product-list--title text-center" style="padding-top: 3px;">Danh Sách Sản Phẩm</h2> -->
                     <h2 class="product-list--title text-center">Danh Sách Sản Phẩm</h2>
                     <!-- dùng để chứa sản phẩm -->
@@ -113,7 +98,26 @@
                     <!--<div style="margin-left: 400px; margin-bottom: 50px;" class="box-item-page">
                        <a class="page-item" href="javascript:void(0)">Xem Thêm</a>
                     </div>-->
-                
+                    <!-- SALE PRODUCT -->
+                    <div class="row">
+                    <h2 class="title text-center" style="color: #5454AE; font-size: 32px; font-weight: 700;margin: 0 0 2rem 2rem;">Khuyến mãi</h2>
+                    <?php foreach ($data["productsale"] as $key => $values) { ?>
+                        <div class="col-md-4">
+                            <div class="product-image-wrapper" style="max-height: 400px; border-radius: 5px;">
+                                <div class="single-products" style="max-height: 400px;">
+                                    <div class="productinfo text-center" style="max-height: 450px;">
+                                        <img style="max-height: 250px; border-radius: 5px; min-height: 250px; object-fit: cover;" src="public/images/img_product/<?=$values["img_product"]?>" alt="" />
+                                        <h4 style="text-decoration: line-through;"><?=number_format($values["price"], $decimals = 0, $dec_point = ",", $thousands_sep = ".")?>đ</h4>
+                                        <h2 style="margin: unset;"><?=number_format($values["price"] * (1 - $values["sale_product"] / 100), $decimals = 0, $dec_point = ",", $thousands_sep = ".")?> đ</h2>
+                                        <p style="margin-top: 10px;"><?=$values["name"]?></p>
+                                        <a href="javascript:void(0)" class="btn btn-default add-to-cart" idproduct="<?=$values['id']?>"><i class="fa fa-shopping-cart"></i>Mua Hàng</a>
+                                    </div>
+                                    <img src="public/client/images/home/sale.png" class="new" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    <?php } ?>
+                </div>
                 <!-- SAN PHAM MOI NHAT -->
                 <div class="category-tab"><!--category-tab-->
                     <h2 class="title text-center" style="color:#5454AE;font-size:32px;font-weight: 700;padding-top:3px;margin-bottom:30px;">Sản Phẩm Mới Nhất</h2>

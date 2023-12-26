@@ -1,7 +1,7 @@
 <footer id="footer"><!--Footer-->
 		<div class="footer-widget">
 			<div class="container">
-				<div class="row">
+				<div class="row justify-content-center text-center">
 					<div class="col-sm-4">
 						<div class="single-widget">
 							<h2>Chăm sóc khách hàng</h2>
